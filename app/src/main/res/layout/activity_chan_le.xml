@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phi.homework_6.ChanLe"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KIỂM TRA CHẴN LẺ"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hãy nhập vào một số nguyên"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/tvChanLe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHẴN/LẺ: "
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/tvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các số đã nhập: "
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnKiemTra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KIỂM TRA"
+            android:textSize="25dp"
+            android:width="200dp"/>
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textSize="25dp"
+            android:width="200dp"/>
+    </LinearLayout>
+</LinearLayout>

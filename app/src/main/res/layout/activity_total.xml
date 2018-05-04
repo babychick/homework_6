@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.phi.homework_6.Total"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TÍNH TIỀN BÁN HÀNG"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Số lượng -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập số lượng "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtSL"
+            android:layout_width="200dp"
+            android:textSize="20dp"/>
+    </GridLayout>
+
+    <!-- Đơn giá -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập đơn giá "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtGia"
+            android:layout_width="200dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="12dp"/>
+    </GridLayout>
+
+    <!-- Thuế -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tỷ lệ thuế "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/edtThue"
+            android:layout_width="180dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="20dp"/>
+    </GridLayout>
+
+    <!-- Button -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/btnTieptuc"
+            android:layout_width="125dp"
+            android:textSize="20dp"
+            android:text="TIẾP TỤC"
+            android:layout_marginLeft="5dp"/>
+        <Button
+            android:id="@+id/btnTinhTien"
+            android:layout_width="125dp"
+            android:textSize="20dp"
+            android:text="TÍNH TIỀN"/>
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="125dp"
+            android:textSize="20dp"
+            android:text="THOÁT"/>
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Thành tiền: "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvThanhTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

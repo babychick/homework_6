@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemChanLe"
+        android:title="KIỂM TRA CHẴN LẺ"></item>
+    <item
+        android:id="@+id/itemDec2Bin"
+        android:title="ĐỔI THẬP PHÂN - NHỊ PHÂN"></item>
+    <item
+        android:id="@+id/itemSum"
+        android:title="TÍNH TIỀN BÁN HÀNG"></item>
+</menu>
